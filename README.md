@@ -1,8 +1,13 @@
-# React + Vite
+# Designing a responsive navigation menu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project makes the responsive navigation menu and this is a task number 07 for frontend Bootcamp
 
-Currently, two official plugins are available:
+## Goal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- To make a responsive navigation menu
+
+## CSS Technique Used
+
+- FlexBox layout
+- Use of media queries to make it responsive
+  (In this case if the screen width is less than 600px the navigation menu turns into vertical direction from horizontal direction)
