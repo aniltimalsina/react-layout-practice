@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  margin-top: 3rem;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* to make it responsive */
+
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+}
